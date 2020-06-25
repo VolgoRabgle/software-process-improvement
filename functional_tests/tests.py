@@ -13,7 +13,7 @@ class NewVisitorTest(StaticLiveServerTestCase):
     
     def setUp(self):
         self.browser=webdriver.Firefox()
-        os.environ['STAGING_SERVER'] = '222.137.172.124'
+        os.environ['STAGING_SERVER'] = '35.201.132.37'
         staging_server = os.environ.get('STAGING_SERVER')
         if staging_server:
             self.live_server_url = 'http://' + staging_server + ':8888'
