@@ -27,7 +27,7 @@ DEBUG = False
 TEMPLATE_DEBUG = DEBUG
 
 #Needed when DEBUG=False
-ALLOWED_HOSTS = ['35.201.132.37']
+ALLOWED_HOSTS = ['137.220.33.233']
 
 
 # Application definition
